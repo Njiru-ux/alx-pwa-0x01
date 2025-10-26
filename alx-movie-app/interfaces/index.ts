@@ -12,7 +12,7 @@ export interface ButtonProps {
 export interface MovieProps {
   id?: string
   posterImage: string
-  releaseYear: string
+  releaseYear: number  // Changed from string to number
   title: string
 }
 
@@ -25,7 +25,7 @@ interface TitleText {
 }
 
 interface ReleaseYear {
-  year: string
+  year: number  // Changed from string to number
 }
 
 export interface MoviesProps {
